@@ -1,4 +1,4 @@
-import { Tooltip } from './tooltip.js';
+import Tooltip from './tooltip';
 
 const popover = document.querySelector('.popover');
 

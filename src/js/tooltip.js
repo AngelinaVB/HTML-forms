@@ -1,4 +1,4 @@
-export class Tooltip {
+export default class Tooltip {
   constructor(tooltip) {
     this.tooltip = tooltip;
   }
