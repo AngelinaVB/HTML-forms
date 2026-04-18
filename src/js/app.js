@@ -1,7 +1,7 @@
-import Tooltip from './tooltip';
+import initPopover from './popover';
 
-const popover = document.querySelector('.popover');
+const container = document.querySelector('.container');
 
-const tooltip = new Tooltip(popover);
+const popover = new initPopover(container);
 
-tooltip.bind();
+initPopover();

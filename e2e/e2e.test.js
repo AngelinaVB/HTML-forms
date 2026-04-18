@@ -20,11 +20,11 @@ describe('tooltip', () => {
     await browser.close();
   });
 
-  test('tooltip show on page', async () => {
+  test('popover show on page', async () => {
     await page.goto(baseUrl);
     await page.waitForSelector('.container');
     const button = await page.$('.btn');
     await button.click();
-    await page.waitForSelector('.tooltip');
+    await page.waitForSelector('.popover');
   });
 });
